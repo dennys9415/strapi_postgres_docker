@@ -1,13 +1,21 @@
 this project is about Docker compose and Dockerfile with a custom strapi app connected to a postgres database
 
 Strapi App
-    DockerFile, it could be used with custom app 
+    DockerFile, it could be used with custom app
+    (the Dockerfile contains all necessary to run whatever custom strapi app) 
 
 Database
     Postgres directly from the docker-compose.yml
 
 Commands to make it work
     docker compose up -d
+
+Commands to make diferent work different resources
+    docker compose up -d db (to only build the database)
+    docker compose up -d strapi (to only build the strapi app)    
+
+Commands to delete all
+    docker compose down
 
 Commands to enter to the Database
     docker exec -it db bash

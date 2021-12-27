@@ -22,7 +22,7 @@ services:
     ports:
       - "1337:1337"
     environment:
-      DATABASE_CLIENT: db
+      DATABASE_CLIENT: postgres
       DATABASE_NAME: postgres
       DATABASE_HOST: db
       DATABASE_PORT: 5432
