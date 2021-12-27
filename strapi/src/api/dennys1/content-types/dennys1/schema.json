@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dennys2",
+  "info": {
+    "singularName": "dennys1",
+    "pluralName": "dennys2",
+    "displayName": "dennys"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dennys3": {
+      "type": "string"
+    }
+  }
+}
