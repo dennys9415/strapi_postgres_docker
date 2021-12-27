@@ -11,6 +11,7 @@ RUN apk add git
 #copy the app, note .dockerignore
 COPY . /usr/src/strapi-app/
 RUN yarn install
+RUN yarn add pg
 
 #build necessary, even if no static files are needed, 
 #since it builds the server as well
