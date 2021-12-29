@@ -1,5 +1,5 @@
 {
-  "name": "dennys",
+  "name": "luis",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,17 +11,16 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.0.2",
-    "@strapi/plugin-users-permissions": "4.0.2",
     "@strapi/strapi": "4.0.2",
-    "pg": "^8.7.1",
-    "sqlite3": "5.0.2"
+    "@strapi/plugin-users-permissions": "4.0.2",
+    "@strapi/plugin-i18n": "4.0.2",
+    "pg": "8.6.0"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "4cbfe23e-ee07-4f24-91b5-6993ca138fcb"
+    "uuid": "4276eb80-bbec-4f4c-bdcf-072059808cb3"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
