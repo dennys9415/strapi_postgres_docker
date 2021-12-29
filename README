@@ -20,3 +20,14 @@ Commands to delete all
 Commands to enter to the Database
     docker exec -it db bash
     psql -h db -d postgres -U postgres
+
+FILES
+    docker-compose.yml
+        docker compose which can be used with a app created before
+
+        #$docker compose up -d
+
+    docker-compose-defaul.yml
+        docker compose with strapi image from Docker Hub
+    
+        #$docker compose up -d    //change the name to docker-compose.yml and run the command
